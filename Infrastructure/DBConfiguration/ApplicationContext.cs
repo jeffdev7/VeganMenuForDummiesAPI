@@ -20,6 +20,7 @@ namespace Infrastructure.DBConfiguration
                 Ingredients = "Spaghetti, olive oil, garlic",
                 Day = Domain.Enum.EDayOfTheWeek.MONDAY,
             });
+
             modelBuilder.Entity<Food>().HasData(new Food
             {
                 Id = Guid.NewGuid(),
@@ -27,6 +28,7 @@ namespace Infrastructure.DBConfiguration
                 Ingredients = "Spaghetti, olive oil, garlic, lentils",
                 Day = Domain.Enum.EDayOfTheWeek.TUESDAY,
             });
+
             modelBuilder.Entity<Food>().HasData(new Food
             {
                 Id = Guid.NewGuid(),
@@ -34,6 +36,7 @@ namespace Infrastructure.DBConfiguration
                 Ingredients = "Spaghetti, olive oil, garlic, cauliflower, chickpeas",
                 Day = Domain.Enum.EDayOfTheWeek.WEDNESDAY,
             });
+
             modelBuilder.Entity<Food>().HasData(new Food
             {
                 Id = Guid.NewGuid(),
@@ -41,6 +44,7 @@ namespace Infrastructure.DBConfiguration
                 Ingredients = "Rice, lentils, potato, peas,carrpts",
                 Day = Domain.Enum.EDayOfTheWeek.THURSDAY,
             });
+
             modelBuilder.Entity<Food>().HasData(new Food
             {
                 Id = Guid.NewGuid(),
@@ -48,6 +52,7 @@ namespace Infrastructure.DBConfiguration
                 Ingredients = "Margherita or mussarela",
                 Day = Domain.Enum.EDayOfTheWeek.FRIDAY,
             });
+
             modelBuilder.Entity<Food>().HasData(new Food
             {
                 Id = Guid.NewGuid(),
@@ -55,6 +60,7 @@ namespace Infrastructure.DBConfiguration
                 Ingredients = "gohan, tofu, mushrooms,soy sauce, spring onion, fried eggplant, courgette ",
                 Day = Domain.Enum.EDayOfTheWeek.SATURDAY,
             });
+
             modelBuilder.Entity<Food>().HasData(new Food
             {
                 Id = Guid.NewGuid(),
@@ -62,6 +68,7 @@ namespace Infrastructure.DBConfiguration
                 Ingredients = "hamburger of chickpeas, lentils, beans, soy",
                 Day = Domain.Enum.EDayOfTheWeek.SUNDAY,
             });
+
             base.OnModelCreating(modelBuilder);
             
         }

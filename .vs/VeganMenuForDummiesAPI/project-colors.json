@@ -5,7 +5,12 @@
       "ProjectGuid": "0dd78a78-29eb-483a-95f3-1e8ede6721be",
       "DisplayName": "Domain",
       "ColorIndex": 0
+    },
+    "d4f0f416-9705-43e7-968f-afde30e19367": {
+      "ProjectGuid": "d4f0f416-9705-43e7-968f-afde30e19367",
+      "DisplayName": "Infrastructure",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

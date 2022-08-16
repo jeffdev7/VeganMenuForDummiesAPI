@@ -10,7 +10,22 @@
       "ProjectGuid": "d4f0f416-9705-43e7-968f-afde30e19367",
       "DisplayName": "Infrastructure",
       "ColorIndex": 1
+    },
+    "0e5a044f-4a45-4a41-8a76-40daf9637004": {
+      "ProjectGuid": "0e5a044f-4a45-4a41-8a76-40daf9637004",
+      "DisplayName": "Application",
+      "ColorIndex": 2
+    },
+    "25365592-97ab-4eaf-92a9-8fda6db01ac7": {
+      "ProjectGuid": "25365592-97ab-4eaf-92a9-8fda6db01ac7",
+      "DisplayName": "MenuAPI",
+      "ColorIndex": 3
+    },
+    "c9209460-1b63-4f72-ad13-46d0576f8b2c": {
+      "ProjectGuid": "c9209460-1b63-4f72-ad13-46d0576f8b2c",
+      "DisplayName": "CrossCutting.IoC",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 5
 }

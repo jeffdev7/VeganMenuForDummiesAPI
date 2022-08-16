@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.DBConfiguration
 {
+    public interface IAppDbContext { }
     public class ApplicationContext : DbContext
     {
         public DbSet<Food> Dishes { get; set; }
